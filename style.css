@@ -113,6 +113,10 @@ h2 {
     margin-right: 20px;
   }
 
+ #computer .far:last-of-type {
+   margin-right: 0;
+ }
+
   .reset-icon {
     margin-top: 25px;
     margin-left: 25px;
@@ -129,7 +133,8 @@ h2 {
     font-size: 22px;
   }
 
-  .player-container {
+  .player-container,
+  .computer-container {
     margin: 43px 0 25px 20px;
   }
 
